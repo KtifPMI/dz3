@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Задание 3</title>
+		 <meta charset = "utf-8">
+    <link rel="stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+  </head>
+	<body>
+		<div class="logo">
+        <a href = "index.html"> <img class="graficlogo" src="logo2.jpg" width="350" height="115" alt="Logo"> </a>
+      <p>LENTA GrIgOrYeV</p>
+			
+
+			</div>
+		<nav>
+
+		<div class="topnav" id="myTopnav">
+          <a href="https://lenta.ru/">ГЛАВНАЯ</a>
+          <a href="https://lenta.ru/rubrics/ussr/">О СССР</a> 
+          <a href="https://lenta.ru/rubrics/media/">Медиа</a>
+          <a href="https://lenta.ru/rubrics/travel/">Путешествия</a> 
+          <a href="https://lenta.ru/rubrics/russia/">Россия</a> 
+          <a href="https://lenta.ru/parts/video/">Видео</a>
+	  </div>
+     </nav>
+    </header>
+<div class="links">
+
+<ol>
+<li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+          <li><a href="ftp://ftp.rasla.ru/Pictures/wp_land.jpg"> Ссылка на файл на сервере FTP без авторизации</a></li>
+          <li><a href="ftp://softovichek.ru/16425246.text"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+          <li><a href="#yakor">Cсылка на фрагмент текущей страницы </a></li>
+          <li><a href="https://yandex.ru/search/?lr=35&text=lenta"> Ссылка с двумя параметрами URL на сайт Lenta </a></li>
+          <li> Список ссылок основной навигации на сайт Lenta
+          <ol>
+              <li><a href="https://lenta.ru/" title = "Главная" >Главная </a> </li>
+              <li><a href="https://lenta.ru/rubrics/ussr/" title="О СССР">СССР</a></li>
+              <li><a href="https://lenta.ru/rubrics/media/" title="Медиа">Медиа</a></li>
+              <li><a href="https://lenta.ru/rubrics/travel/" title="Путешествия">Путешествия </a> </li>
+              <li><a href="https://lenta.ru/rubrics/russia/" title="Россия сегодня">Россия </a> </li>
+              <li><a href="https://lenta.ru/parts/video/" title="Видео">Видео </a> </li>
+          </ol></li>
+          <li><a>Ссылка без href </a></li>
+          <li><a href=""> Ссылка с пустым href </a></li>
+          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+          <li><p>В США заявили о готовности обсудить возвращение к ядерной сделке с Ираном <b href="https://lenta.ru/news/2021/09/20/nuclearpower/">Подробнее</b></p></li>
+          </li>
+          <li><a href="./russian.txt">Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/in-depth.txt">Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="../features.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+          <li><a href="../../media.mp4">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+          <li><a href="/">Ссылка, сокращенная на главную</a></li>
+          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+</ol>
+
+ </div>
+    <div>
+      <table>
+        <tr>
+          <th>Заголовок 1</th>
+          <th>Заголовок 2</th>
+          <th>Заголовок 3</th>
+        </tr>
+        <tr>
+          <td>1.1</td>
+          <td>1.2</td>
+          <td rowspan="2">Строка 1,2</td>
+        </tr>
+        <tr>
+          <td>2.1</td>
+          <td>2.2</td>
+        </tr>
+        <tr>
+          <td colspan="2">Столбец 1,2</td>
+          <td>2.5</td>
+        </tr>
+        <tr>
+          <td>4.1</td>
+          <td>4.2</td>
+          <td>4.3</td>
+        </tr>
+        <tr>
+          <td>5.1</td>
+          <td>5.2</td>
+          <td>5.3</td>
+        </tr>
+      </table>
+    </div>
+      <br>
+      <form id="yakor">
+          <label>Имя:
+          <br>
+          <input type="text" placeholder="Здесь Имя">
+          </label>
+          <br>
+          <label>e-mail:
+          <br>
+          <input type="email" placeholder="Здесь email">
+          </label>
+          <br>
+          <label>Дата рождения:
+          <br>
+          <input type="date" value="2001-05-18">
+          </label>
+          <br>
+          Пол:
+          <br>
+          <label>
+          <input type="radio" name="m or fem">
+          Мужской
+          </label>
+          <label>
+          <input type="radio" name="m or fem">
+          Женский
+          </label>
+          <br>
+          Количество конечностей:
+          <br>
+          <label>
+          <input type="radio" name="konechnosti">
+          0
+          </label>
+          <label>
+          <input type="radio" name="konechnosti">
+          1
+          </label>
+          <label>
+          <input type="radio" name="konechnosti">
+          2
+          </label>
+          <label>
+          <input type="radio" name="konechnosti">
+          3
+          </label>
+          <label>
+          <input type="radio" name="konechnosti">
+          4
+          </label>
+          <br>
+          <label>Сверхспособности:
+          <br>
+          <select multiple="multiple">
+              <option>Бессмертие</option>
+              <option>Прохождение сквозь стены</option>
+              <option>Знать HTML</option>
+              <option>Закончить ПМИ</option>
+              <option>Левитация</option>
+          </select>
+          </label>
+          <br>
+          <label>Биография:
+          <br>
+          <textarea placeholder="Обо мне: "></textarea>
+          </label>
+          <br>
+          <label>
+          <input type="checkbox">
+          С контрактом ознакомлен
+          </label>
+          <br>
+          <input type="button" value="Отправить">
+      </form>
+	<footer>
+		 <nav> 
+              <div class="social">
+                <a href="https://www.instagram.com/workinpeace/?hl=ru"> <img src="footer.png" width="15" height="15" alt="Inst"></a> 
+              </div>
+              <p>Григорьев Алексей</p>
+          </nav>
+	</footer>
+	</div>
+	</body>
+</html>
