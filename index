@@ -2,177 +2,202 @@
 <html lang="ru">
 	<head>
 		<title>Задание 3</title>
-		 <meta charset = "utf-8">
-    <link rel="stylesheet" href = "style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
-  </head>
+		 <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
 	<body>
-		<div class="logo">
-        <a href = "index.html"> <img class="graficlogo" src="logo2.jpg" width="350" height="115" alt="Logo"> </a>
-      <p>LENTA GrIgOrYeV</p>
-			
+		<div id="_main">
+		<header class ="header">
+			<img src="http://www.sostav.ru/images/news/2017/08/16/slides/EfrgtGU0_l.jpg" alt = "Лого" title="logo">
+			<div class="header-text">
+
+			<div class = "site-name">Современные проблемы требуют современных решений</div>
 
 			</div>
-		<nav>
+		</header>
 
-		<div class="topnav" id="myTopnav">
-          <a href="https://lenta.ru/">ГЛАВНАЯ</a>
-          <a href="https://lenta.ru/rubrics/ussr/">О СССР</a> 
-          <a href="https://lenta.ru/rubrics/media/">Медиа</a>
-          <a href="https://lenta.ru/rubrics/travel/">Путешествия</a> 
-          <a href="https://lenta.ru/rubrics/russia/">Россия</a> 
-          <a href="https://lenta.ru/parts/video/">Видео</a>
-	  </div>
-     </nav>
-    </header>
+		<nav class = "navigation">
+			<a href="https://www.kubsu.ru/ru/university" class="a-html">УНИВЕРСИТЕТ</a>
+			<a href="https://www.kubsu.ru/ru/education" class="a-css">ОБРАЗОВАНИЕ</a>
+			<a href="https://www.kubsu.ru/ru/science" class="a-main">НАУКА</a>
+		</nav>
+
+<div class="main-info">
 <div class="links">
 
 <ol>
-<li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
-          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
-          <li><a href="ftp://ftp.rasla.ru/Pictures/wp_land.jpg"> Ссылка на файл на сервере FTP без авторизации</a></li>
-          <li><a href="ftp://softovichek.ru/16425246.text"> Ссылка на файл на сервере FTP с авторизацией</a></li>
-          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
-          <li><a href="#yakor">Cсылка на фрагмент текущей страницы </a></li>
-          <li><a href="https://yandex.ru/search/?lr=35&text=lenta"> Ссылка с двумя параметрами URL на сайт Lenta </a></li>
-          <li> Список ссылок основной навигации на сайт Lenta
-          <ol>
-              <li><a href="https://lenta.ru/" title = "Главная" >Главная </a> </li>
-              <li><a href="https://lenta.ru/rubrics/ussr/" title="О СССР">СССР</a></li>
-              <li><a href="https://lenta.ru/rubrics/media/" title="Медиа">Медиа</a></li>
-              <li><a href="https://lenta.ru/rubrics/travel/" title="Путешествия">Путешествия </a> </li>
-              <li><a href="https://lenta.ru/rubrics/russia/" title="Россия сегодня">Россия </a> </li>
-              <li><a href="https://lenta.ru/parts/video/" title="Видео">Видео </a> </li>
-          </ol></li>
-          <li><a>Ссылка без href </a></li>
-          <li><a href=""> Ссылка с пустым href </a></li>
-          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
-          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
-          <li><p>В США заявили о готовности обсудить возвращение к ядерной сделке с Ираном <b href="https://lenta.ru/news/2021/09/20/nuclearpower/">Подробнее</b></p></li>
-          </li>
-          <li><a href="./russian.txt">Относительная ссылка на страницу в текущем каталоге</a></li>
-          <li><a href="./about/in-depth.txt">Относительная ссылка на страницу в каталоге about</a></li>
-          <li><a href="../features.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
-          <li><a href="../../media.mp4">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
-          <li><a href="/">Ссылка, сокращенная на главную</a></li>
-          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+<li>
+<a href="http://example.com"> Абсолютную гиперссылку на главную страницу сайта example.com</a>
+</li>
+<li>
+<a href="https://example.com"> Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a>
+</li>
+<li>
+<a href="ftp://ftp.mccme.ru/pub/not-working/uupc7.03/disk1.zip"> Ссылка на файл на сервере FTP без авторизации</a>
+</li>
+<li> 
+<a href="ftp://log123:pass123@ftp.vsu.ru/text.txt">Ссылка на файл на сервере FTP с авторизацией </a>
+</li>
+<li> 
+<a href="https://www.kubsu.ru/ru/abiturient/campaign2018">Ссылка на фрагмент другой страницы</a>
+ </li>
+<li>
+<a href="#fragment">Ссылка на фрагмент текущей страницы</a>
+ </li>
+<li><a href="https://www.google.ru/search?newwindow=1&source=hp">Ссылка с двумя параметрами в url</a> 
+</li>
+<li> 
+    Навигация по сайту Кубанского государственного университета
+    <br><ul>
+<li><a href="https://www.kubsu.ru/ru/university">Университет</a></li>
+<li><a href="https://www.kubsu.ru/ru/education">Образование</a></li>
+<li><a href="https://www.kubsu.ru/ru/science">Наука и инновации</a></li>
+<li><a href="https://www.kubsu.ru/ru/abiturient">Абитуриентам</a></li>
+<li><a href="https://www.kubsu.ru/ru/studlife">Студентам</a></li>
+</ul>
+ </li>
+<li> 
+<a> Ссылка без href </a>
+ </li>
+<li> 
+<a href=""> Ссылка с пустым href </a>
+ </li>
+<li> 
+<a href="https://mail.ru/" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a>
+</li>
+<li>
+<a href="https://mail.ru/" title="Запрещенная для индексации поисковиками"><!--noindex-->Запрещенная для индексации поисковиками<!--/noindex--></a>
+</li>
+<li> 
+Ссылка на сайт <a href="https://www.kubsu.ru/">КУБГУ</a> в контексте абзаца
+ </li>
+<li> 
+<a href="./norma.html">в текущем каталоге</a>
+</li>
+<li> 
+<a href="./about/norma.html">в каталоге about</a>
+ </li>
+<li>
+<a href="../norma.html">в каталоге на 1 уровень выше </a>
+ </li>
+<li> 
+<a href="../../norma.html">на 2 уровня выше</a>
+</li>
+<li>
+<a href=”/”> Сокращенная ссылка на главную </a>
+</li>
+<li> 
+<a href="/glob">Сокращенная ссылка на внутреннюю </a>
+ </li>
+
 </ol>
 
- </div>
-    <div>
-      <table>
-        <tr>
-          <th>Заголовок 1</th>
-          <th>Заголовок 2</th>
-          <th>Заголовок 3</th>
-        </tr>
-        <tr>
-          <td>1.1</td>
-          <td>1.2</td>
-          <td rowspan="2">Строка 1,2</td>
-        </tr>
-        <tr>
-          <td>2.1</td>
-          <td>2.2</td>
-        </tr>
-        <tr>
-          <td colspan="2">Столбец 1,2</td>
-          <td>2.5</td>
-        </tr>
-        <tr>
-          <td>4.1</td>
-          <td>4.2</td>
-          <td>4.3</td>
-        </tr>
-        <tr>
-          <td>5.1</td>
-          <td>5.2</td>
-          <td>5.3</td>
-        </tr>
-      </table>
-    </div>
-      <br>
-      <form id="yakor">
-          <label>Имя:
-          <br>
-          <input type="text" placeholder="Здесь Имя">
-          </label>
-          <br>
-          <label>e-mail:
-          <br>
-          <input type="email" placeholder="Здесь email">
-          </label>
-          <br>
-          <label>Дата рождения:
-          <br>
-          <input type="date" value="2001-05-18">
-          </label>
-          <br>
-          Пол:
-          <br>
-          <label>
-          <input type="radio" name="m or fem">
-          Мужской
-          </label>
-          <label>
-          <input type="radio" name="m or fem">
-          Женский
-          </label>
-          <br>
-          Количество конечностей:
-          <br>
-          <label>
-          <input type="radio" name="konechnosti">
-          0
-          </label>
-          <label>
-          <input type="radio" name="konechnosti">
-          1
-          </label>
-          <label>
-          <input type="radio" name="konechnosti">
-          2
-          </label>
-          <label>
-          <input type="radio" name="konechnosti">
-          3
-          </label>
-          <label>
-          <input type="radio" name="konechnosti">
-          4
-          </label>
-          <br>
-          <label>Сверхспособности:
-          <br>
-          <select multiple="multiple">
-              <option>Бессмертие</option>
-              <option>Прохождение сквозь стены</option>
-              <option>Знать HTML</option>
-              <option>Закончить ПМИ</option>
-              <option>Левитация</option>
-          </select>
-          </label>
-          <br>
-          <label>Биография:
-          <br>
-          <textarea placeholder="Обо мне: "></textarea>
-          </label>
-          <br>
-          <label>
-          <input type="checkbox">
-          С контрактом ознакомлен
-          </label>
-          <br>
-          <input type="button" value="Отправить">
-      </form>
+
+</div>
+		<div class="main-table">
+			<h3>Таблица</h3>
+				<table>
+
+					<tr>
+						<th>1.1</th>
+						<th colspan="2">1.3</th>
+					</tr>
+					<tr>
+						<td  colspan="2">2.1</td>
+						
+						<td>2.3</td>
+					</tr>
+					<tr>
+						<td>3.1</td>
+						<td>3.2</td>
+                                                <td>3.3</td>
+					
+					</tr>
+					<tr>
+						<td rowspan="2">4.1</td>
+						<td>4.2</td>
+						<td>4.3</td>
+
+					</tr>
+					<tr>
+						
+						<td>5.2</td>
+						<td>5.3</td>
+					</tr>
+				</table>
+			
+		</div>
+<div class ="main-form">
+			
+			<div class = "text-field">
+			    <form action = "Url" method="GET">
+			<label >
+				Текстовое поле
+				<br>
+				<input name="text-field-1" placeholder="Текст">
+			</label>
+
+			<br>
+<label>
+					e-mail
+					<br>
+					<input type="email" name="e-mail"  placeholder="example@example.com">
+			</label>
+			<br>
+
+			<label>
+				Дата Рождения
+				<br>
+				<input name="Date of birth" type="text" >
+			</label>
+			<br>
+			
+				Пол
+				<br>
+				<label><input type="radio" name="radio-button1" value="M" checked="checked">Мужской</label>
+				<label><input type="radio" name="radio-button1" value="W"> Женский</label>
+				<br>
+				
+				Количество конечностей
+				<br>													
+				<label><input type="radio" name="radio-button2" value="1">1</label>
+				<label><input type="radio" name="radio-button2" value="2">2</label><br>
+				<label><input type="radio" name="radio-button2" value="3">3</label>
+				<label><input type="radio" name="radio-button2" value="4" checked>4</label><br>
+				<label><input type="radio" name="radio-button2" value="more">Больше</label>
+				<br>
+
+			<label><!--бессмертие, прохождение сквозь стены, левитация -->
+				Суперсила
+				<br>
+					<select name="superpower" multiple="multiple">
+						<option value="immortality">Бессмертие</option>
+						<option value="passing-through-walls" selected>Прохождение сквозь стены</option>
+						<option value="levitation">Левитация</option>
+					</select>
+			</label>
+			<br>
+			<label>
+				Биография
+				<br>
+				<textarea  name="biography">Биография</textarea>
+			</label>
+			<br>
+
+			<label>
+					<input type="checkbox" name="contract" checked>С контрактом ознакомлен
+			</label>
+			<br>
+
+			<input type="submit" value="Отправить">
+
+		</form>
+			</div>
+		</div>
+	</div>
 	<footer>
-		 <nav> 
-              <div class="social">
-                <a href="https://www.instagram.com/workinpeace/?hl=ru"> <img src="footer.png" width="15" height="15" alt="Inst"></a> 
-              </div>
-              <p>Григорьев Алексей</p>
-          </nav>
+		<span>(с)Говорухина Ольга 2019</span>
 	</footer>
 	</div>
 	</body>
 </html>
+
