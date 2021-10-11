@@ -1,0 +1,161 @@
+body{
+	margin:0;
+	background-color:#FFCCFF;
+}
+#_main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	width:100%;
+	height:100px;
+	margin:0;
+	padding:0;
+	background-color:#FF6699;
+	border-radius:2px;
+}
+.site-name{
+	text-align:center;
+	position:relative;
+	margin:6px;
+	font-weight: 500;
+	font-size: 1em;
+        color:#FF0000;
+}
+.header-text{
+     width: 70%;
+    padding: 12px 0;
+    background-color: #FFCCFF;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-right: 10px;
+    float: right;
+}
+.header img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 10px;
+	border-radius: 90px;
+}
+.navigation{
+
+	margin-top: 30px;
+	background-color: #FF99CC;
+	box-shadow: 0 0 6px;
+    color: #FF0000;
+    padding: 12px 0;
+    text-align: center;
+}
+a{
+	text-decoration:none;
+}
+  .navigation>a{
+	
+    color: #FF0000;
+    font-size: 20px;
+    margin: 0 45px;
+
+}
+
+.main-info{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+}
+.main-table {
+	order: 0;
+	border-radius:2px;
+	box-shadow: 0px 0px 5px 2px gray;
+	background-color:#FF9999;
+	text-align:center;
+	margin-top:20px;
+	order: 2;
+}
+.main-form {
+	
+	border-radius:2px;
+	box-shadow: 0px 0px 5px 2px gray;
+	background-color:#FF9999;
+	text-align:center;
+	order: 0;
+}
+.links {
+	margin-top: 20px;
+	border-radius:2px;
+	box-shadow: 0px 0px 5px 2px gray;
+	background-color: #FF9999;
+	text-align:center;
+	order: 0;
+	    Padding: 0 33px;
+}
+.main-table{
+	
+}
+th{
+	border:0.5px solid black;
+}
+table{
+	margin:auto;
+	width:70%;
+	height:70%;
+	padding:10px;
+	margin-top:20px;
+        border:0px; 
+      border-collapse:collapse;
+}
+td{
+	border:0.5px solid black;
+	cellspacing:0;
+	padding-right:40px;
+	padding-left:40px;
+    padding:0px;  
+}
+tr:nth-child(2n){
+	background-color:#FFCCFF;
+}
+.main-form{
+	margin-top:20px;
+	padding: 16px 0;
+}
+.text-field{
+    border: 2px solid black;
+    max-width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+footer{
+	width:100%;
+	background-color:#FF66FF;
+	margin-top:20px;
+	text-align: center;
+	padding: 30px 0;
+}
+span{
+	color:#FFCCFF;
+}
+
+@media screen and (min-width: 1000px) {
+	#_main {
+		width: 80%;
+	}
+	.site-name {
+		font-size: 1.3em;
+	}
+	.header-text {
+		float: inherit;
+		margin: 0 auto;
+margin-top: 15px;
+		width: 73%;
+	}
+.main-table {
+	order: 0;
+}
+.main-form {
+	order: 0;
+}
+.links {order: 0;}
+}
